@@ -8,7 +8,7 @@ function Product(props) {
         </li >
     );
         
-    return (<ul style={{ "listStyleType": "none"}}>We Sell the following items: {listItems}</ul>);
+    return (<ul style={{ "listStyleType": "none"}}>Welcome to our Shop! <br></br>We Sell the following items: {listItems}</ul>);
 }
 
 export default Product;
