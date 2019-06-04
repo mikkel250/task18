@@ -18,7 +18,7 @@ class Profile extends React.Component {
     }
 
     handleSubmit(event) {
-        alert('Profile Updated: ' + this.state.value);
+        alert('Profile Updated');
         event.preventDefault();
     }
 
@@ -35,7 +35,7 @@ class Profile extends React.Component {
                     <label>Address:
                 <input type='text' onChange={this.handleAddressChange} ></input><br />
                     </label>
-                    <button class="btn waves-effect waves-light" type="submit" name="action">Submit<i class="material-icons right">>></i>
+                    <button class="btn waves-effect waves-light" type="submit" name="action" onClick={this.handleSubmit}>Submit<i class="material-icons right">>></i>
                     </button>
                 </form>
             </div>
